@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MoE4OPT</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favico.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+  </script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Mixture of Experts for Network Optimization: A Large Language Model-enabled Approach</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+               Hongyang Du, Guangyuan Liu, Yijing Lin, Dusit Niyato, Jiawen Kang, Zehui Xiong, Dong In Kim</span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Nanyang Technological University<br></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2402.09756.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://hongyangdu.github.io/MoE4OPT/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2402.09756" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          Optimizing various wireless user tasks poses a significant challenge for networking systems because of the expanding range of user requirements. Despite advancements in Deep Reinforcement Learning (DRL), the need for customized optimization tasks for individual users complicates developing and applying numerous DRL models, leading to substantial computation resource and energy consumption and can lead to inconsistent outcomes. To address this issue, we propose a novel approach utilizing a Mixture of Experts (MoE) framework, augmented with Large Language Models (LLMs), to analyze user objectives and constraints effectively, select specialized DRL experts, and weigh each decision from the participating experts. Specifically, we develop a gate network to oversee the expert models, allowing a collective of experts to tackle a wide array of new tasks. Furthermore, we innovatively substitute the traditional gate network with an LLM, leveraging its advanced reasoning capabilities to manage expert model selection for joint decisions. Our proposed method reduces the need to train new DRL models for each unique optimization problem, decreasing energy consumption and AI model implementation costs. The LLM-enabled MoE approach is validated through a general maze navigation task and a specific network service provider utility maximization task, demonstrating its effectiveness and practical applicability in optimizing complex networking systems. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop content">
+	
+	<p>The figure below illustrates two network optimization strategies. Part A highlights the inefficiency of deploying multiple AI models for different requirements, while Part B introduces our LLM-enabled MoE strategy that utilizes a select group of DRL models for various user tasks efficiently.</p>
+    <img src="readme/1.png" width="60%" alt="Network Optimization Strategies">
+
+    <p><strong>Problem Statement:</strong> How to efficiently conduct network optimization without resorting to numerous individually trained DRL models for each task?</p>
+    <hr>
+
+    <h2>🔧 Environment Setup</h2>
+    <p>To establish a new conda environment, run the following command:</p>
+    <pre><code>conda create --name moeopt python==3.7</code></pre>
+
+    <h2>⚡ Activate Environment</h2>
+    <p>Activate the environment with:</p>
+    <pre><code>conda activate moeopt</code></pre>
+
+    <h2>📦 Install Required Packages</h2>
+    <p>Install necessary packages using pip:</p>
+    <pre><code>pip install torch opencv-python==4.1.2.30 scipy torchvision scikit-image</code></pre>
+
+    <h2>🏃‍♀️ Run the Program</h2>
+    <p>Execute <code>main.py</code> to initiate the program.</p>
+
+    <h2>🔍 Case Study 1: Maze Navigation Task</h2>
+    <p>LLM-enabled MoE framework demonstrated in a maze navigation task, using an ensemble of DRL models for diverse tasks as expert models for the LLM to infer and address user tasks.</p>
+    <img src="readme/2.png" width="100%" alt="Maze Navigation Task">
+
+    <h2>🔍 Case Study 2: Service Provider Utility Maximization Problem</h2>
+    <p>Illustration of the system model, market interactions, and the impact of varying user requirements on service payments and power allocation strategies.</p>
+    <img src="readme/3.png" width="60%" alt="Service Provider Utility Maximization Problem">
+
+    <hr>
+
+    <h2>📚 Cite Our Work</h2>
+    <p>If our code aids your research, please cite our work:</p>
+    <pre><code>@article{du2024mixture,
+  title={Mixture of Experts for Network Optimization: A Large Language Model-enabled Approach},
+  author={Du, Hongyang and Liu, Guangyuan and Lin, Yijing and Niyato, Dusit and Kang, Jiawen and Xiong, Zehui and Kim, Dong In},
+  journal={arXiv preprint arXiv:2402.09756},
+  year={2024},
+  month = {Feb.}
+}</code></pre>
+	
+</div>
+</div>
+</section>
+
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
