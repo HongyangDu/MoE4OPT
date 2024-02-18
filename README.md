@@ -52,3 +52,17 @@ System model. *Part A* shows the Service Market Model, illustrating the interact
 
 <img src="readme/3.png" width = "100%">
 
+
+## 📚 Cite Our Work
+
+Should our code assist in your research, please acknowledge our work by citing:
+
+```bibtex
+@article{du2024mixture,
+  title={Mixture of Experts for Network Optimization: A Large Language Model-enabled Approach},
+  author={Du, Hongyang and Liu, Guangyuan and Lin, Yijing and Niyato, Dusit and Kang, Jiawen and Xiong, Zehui and Kim, Dong In},
+  journal={arXiv preprint arXiv:2402.09756},
+  year={2024},
+  month = {Feb.}
+}
+```
