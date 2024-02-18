@@ -1,5 +1,6 @@
 # [MoE4OPT Project](https://hongyangdu.github.io/MoE4OPT/)
 
+<span style="color:green">The code will be made available upon publications</span>.
 This repository contains a demo implementation of the algorithm as presented in:
 
 > **"Mixture of Experts for Network Optimization: A Large Language Model-enabled Approach" [Download Paper](https://arxiv.org/pdf/2402.09756.pdf)**
