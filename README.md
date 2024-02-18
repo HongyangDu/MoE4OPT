@@ -5,10 +5,12 @@ This repository contains a demo implementation of the algorithm as presented in:
 > **"Mixture of Experts for Network Optimization: A Large Language Model-enabled Approach" [Download Paper](https://arxiv.org/pdf/2402.09756.pdf)**
 
 
-Network optimization strategies. *Part A* demonstrates the drawbacks of training distinct AI models for different user requirements, emphasizing the costs of excessive AI model deployment. *Part B* presents our LLM-enabled MoE approach, using a limited set of DRL models to efficiently address a variety of user tasks.
+The following figure shows two network optimization strategies. *Part A* demonstrates the drawbacks of training distinct AI models for different user requirements, emphasizing the costs of excessive AI model deployment. *Part B* presents our LLM-enabled MoE approach, using a limited set of DRL models to efficiently address a variety of user tasks.
+
 <img src="readme/1.png" width = "60%">
 
-The problem we solve: *How can we achieve effective network optimization without using numerous DRL models individually trained for each specific task?*
+The problem we solve: 
+> *How can we achieve effective network optimization without using numerous DRL models individually trained for each specific task?*
 
 
 ---
