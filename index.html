@@ -152,10 +152,10 @@
   <div class="hero-body">
     <div class="container is-max-desktop content">
 	
-	<p>The figure below illustrates two network optimization strategies. Part A highlights the inefficiency of deploying multiple AI models for different requirements, while Part B introduces our LLM-enabled MoE strategy that utilizes a select group of DRL models for various user tasks efficiently.</p>
+	<p>The following figure shows two network optimization strategies. <em>Part A</em> demonstrates the drawbacks of training distinct AI models for different user requirements, emphasizing the costs of excessive AI model deployment. <em>Part B</em> presents our LLM-enabled MoE approach, using a limited set of DRL models to efficiently address a variety of user tasks.</p>
     <img src="readme/1.png" width="60%" alt="Network Optimization Strategies">
 
-    <p><strong>Problem Statement:</strong> How to efficiently conduct network optimization without resorting to numerous individually trained DRL models for each task?</p>
+    <p><strong>The problem we solve:</strong> <em style="color: darkred;">How can we achieve effective network optimization without using numerous DRL models individually trained for each specific task?</em></p>
     <hr>
 
     <h2>🔧 Environment Setup</h2>
@@ -167,8 +167,13 @@
     <pre><code>conda activate moeopt</code></pre>
 
     <h2>📦 Install Required Packages</h2>
-    <p>Install necessary packages using pip:</p>
-    <pre><code>pip install torch opencv-python==4.1.2.30 scipy torchvision scikit-image</code></pre>
+<p>Install the necessary packages one by one using pip:</p>
+<pre><code>pip install torch
+pip install opencv-python==4.1.2.30
+pip install scipy
+pip install torchvision
+pip install scikit-image</code></pre>
+
 
     <h2>🏃‍♀️ Run the Program</h2>
     <p>Execute <code>main.py</code> to initiate the program.</p>
