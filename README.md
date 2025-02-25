@@ -1,7 +1,5 @@
 # [MoE4OPT Project](https://hongyangdu.github.io/MoE4OPT/)
 
-# 🔴 The code will be made available upon publications.🔴
-
 
 This repository contains a demo implementation of the algorithm as presented in:
 
